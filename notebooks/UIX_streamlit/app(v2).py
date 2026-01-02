@@ -1427,4 +1427,5 @@ else:
                             del hist[idx_in_hist]
                             st.session_state["history"][u] = hist
                             st.success("Supprimé ✅")
+
                             st.rerun()
